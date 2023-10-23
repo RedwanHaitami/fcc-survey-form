@@ -15,7 +15,7 @@ Check it out on [Github Web Pages](https://redwanhaitami.github.io/fcc-survey-fo
 ## About the project
 
 ### Objective
-Build a survey form to collect data from your users.<br>
+Build a **Survey Form** to collect data from your users.<br>
 <br>
 
 ### Requirements
@@ -57,4 +57,4 @@ Build a survey form to collect data from your users.<br>
 
 ### Attribution 
 
-Background image by [Kike vega](https://unsplash.com/@kikekiks) on [unsplash](https://unsplash.com/)
+Background image by [Kike vega](https://unsplash.com/@kikekiks) on [Unsplash](https://unsplash.com/)
