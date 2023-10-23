@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <!-- Main_CSS_file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google_Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Yoga Club Survey Form</h1>
+    <p id="description">For better fabulous yoga classes, we would like to hear about your experience with us</p>
+    <!-- Start_Form -->
+        <form id="survey-form">
+            <div class="container">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" class="main-input" type="text" required placeholder="Enter your name" name="name"/>
+            </div>
+            <div class="container">
+                <label id="email-label" for="email">Email</label>
+                <input id="email" class="main-input" type="email" required placeholder="Enter your email" name="email"/>
+            </div>
+            <div class="container">
+                <label id="number-label" for="number">Age</label>
+                <input id="number" class="main-input" type="number" placeholder="Enter Your Age" min="14" max="100" name="number"/>
+            </div>
+            <div class="container">
+                <label for="dropdown" class="question-label">Which class have you participated in?</label>
+                <select id="dropdown" class="main-input" name="select">
+                    <option value="0">-Choose an option-</option>
+                    <option value="1">Restorative yoga</option>
+                    <option value="2">Power yoga</option>
+                    <option value="3">Laughter yoga</option>
+                    <option value="4">Yoga for weight loss</option>
+                </select>
+            </div>
+            <div class="container">
+                <p class="question-label">How would you rate your level of satisfaction with us?</p>
+                <label for="satisfied"><input id="satisfied" type="radio" name="rating" value="satisfied"/> Satisfied</label>
+                <label for="neutral"><input id="neutral" type="radio" name="rating" value="neutral"/> Neutral</label>
+                <label for="unsatisfied"><input id="unsatisfied" type="radio" name="rating" value="unsatisfied"/> Unsatisfied</label>
+            </div>
+            <div class="container">
+                <p class="question-label">What are things you liked most about the class?</p>
+                <label for="philosophy"><input id="philosophy" type="checkbox" name="liking" value="philosophy"/> Yoga philosophy</label>
+                <label for="music"><input id="music" type="checkbox" name="liking" value="music"/> Background music</label>
+                <label for="socializing"><input id="socializing" type="checkbox" name="liking" value="socializing"/> Socializing</label>
+                <label for="breathing"><input id="breathing" type="checkbox" name="liking" value="breathing"/> Breathing techniques</label>
+                <label for="meditation"><input id="meditation" type="checkbox" name="liking" value="meditation"/> Meditation</label>
+                <label for="relaxation"><input id="relaxation" type="checkbox" name="liking" value="relaxation"/> Relaxation</label>
+            </div>
+            <div class="container">
+                <label for="suggestion" class="question-label">Any comments or suggestions?</label>
+                <textarea id="suggestion" class="main-input" name="suggestion" placeholder="Please, enter your comment here..." rows="6"></textarea>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    <!-- End_Form  -->
+</body>
+</html>

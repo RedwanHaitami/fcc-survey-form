@@ -1,0 +1,126 @@
+/* Start_Variables */
+
+:root {
+    --main-color: rgba(74, 79, 104, 0.5);
+    --outline-color: #4b5069;
+    --btn-bg-color: #dd7967;
+    --font-color: #FFFFFF;
+}
+
+/* End_Variables */
+/* Start_General_Styles */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* End_General_Styles */
+
+#title {
+    margin: 36px auto;
+    font-size: 2.25rem;
+    text-align: center;
+}
+#description {
+    margin: 0 auto 36px;
+    max-width: 500px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Start_Form */
+
+#survey-form {
+    background-color: var(--main-color);
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+#survey-form .container {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+#survey-form label {
+    margin: 8px 0;
+    font-size: 1.125rem;
+}
+#survey-form .main-input {
+    width: 100%;
+    padding: 16px;
+    font-size: 1rem; 
+    font-family: inherit;
+    display: block;    
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#survey-form .main-input:focus {
+    outline: 1px solid var(--outline-color);
+}
+#survey-form #submit {
+    background-color: var(--btn-bg-color);
+    color: var(--font-color);
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 1.125rem;   
+    font-family: inherit;        
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+/* End_Form */
+/* Start_Media_Queries */
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 1.75rem;
+    }
+    #description {
+        padding: 0 16px;
+        font-size: 1.125rem;
+    }
+    #survey-form {
+        padding: 16px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+}
+
+/* End_Media_Queries */
