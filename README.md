@@ -9,10 +9,10 @@ Yoga club survey form created for [freeCodeCamp](https://www.freecodecamp.org/) 
 
 ## Live Demo 
 
-Check it out on [Github Web Pages](https://redwanhaitami.github.io/fcc-survey-form/)<br>
+Check it out on [Github Webpages](https://redwanhaitami.github.io/fcc-survey-form/)<br>
 <br>
 
-## The objective
+## Objective
 
 Build a **Survey Form** to collect data from your users.<br>
 <br>
