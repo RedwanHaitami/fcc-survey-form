@@ -1,6 +1,6 @@
 # Survey Form
 
-Yoga club survey form created for freeCodeCamp Responsive Web Design Certification project.<br>
+Yoga club survey form project created for freeCodeCamp Responsive Web Design Certification.<br>
 <br>
 
 ## Preview 
