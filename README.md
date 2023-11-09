@@ -17,7 +17,7 @@ Check it out on [Github Webpages](https://redwanhaitami.github.io/fcc-survey-for
 Build a **Survey Form** to collect data from your users.<br>
 <br>
 
-### Requirements
+## Requirements
 
 - **User Story #1:** I can see a title with `id="title"` in `H1` sized text.
 
