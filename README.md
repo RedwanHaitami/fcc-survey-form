@@ -1,6 +1,6 @@
 # Survey Form
 
-Yoga club survey form created for [freeCodeCamp](https://www.freecodecamp.org/) Responsive Web Design Certification project.<br>
+Yoga club survey form project created for freeCodeCamp Responsive Web Design Certification.<br>
 <br>
 
 ## Preview 
@@ -9,12 +9,12 @@ Yoga club survey form created for [freeCodeCamp](https://www.freecodecamp.org/) 
 
 ## Live Demo 
 
-Check it out on [Github Web Pages]()<br>
+Check it out on [Github Webpages](https://redwanhaitami.github.io/fcc-survey-form/)<br>
 <br>
 
-## Objective 
+## Objective
 
-Build a survey form to collect data from your users.<br>
+Build a **Survey Form** to collect data from your users.<br>
 <br>
 
 ## Requirements
@@ -37,7 +37,8 @@ Build a survey form to collect data from your users.<br>
 
 - **User Story #9:** If I enter numbers outside the range of the number input, I will see an HTML5 validation error.
 
-- **User Story #10:** For the name, email, and number input fields inside the form I can see corresponding labels that    describe the purpose of each field with the following ids: `id="name-label"`, `id="email-label"`, and `id="number-label"`.
+- **User Story #10:** For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: `id="name-label"`,
+                     `id="email-label"`, and `id="number-label"`.
 
 - **User Story #11:** For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.
 
@@ -53,6 +54,6 @@ Build a survey form to collect data from your users.<br>
 <br>
 
 
-## Attribution 
+### Attribution 
 
-Background image by [Kike vega](https://unsplash.com/@kikekiks) on [unsplash](https://unsplash.com/)
+Background image by [Kike vega](https://unsplash.com/@kikekiks) on [Unsplash](https://unsplash.com/)
