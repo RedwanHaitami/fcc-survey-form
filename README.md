@@ -1,15 +1,16 @@
 # Survey Form
 
-Yoga club survey form project created for freeCodeCamp Responsive Web Design Certification.<br>
-<br>
-
-## Preview 
 ![the project preview](./images/preview.png)</br>
 <br>
 
 ## Live Demo 
 
 Check it out on [Github Webpages](https://redwanhaitami.github.io/fcc-survey-form/)<br>
+<br>
+
+## About The Project
+
+Yoga club survey form project was created for freeCodeCamp Responsive Web Design Certification.<br>
 <br>
 
 ## Objective
