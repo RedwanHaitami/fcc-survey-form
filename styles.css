@@ -1,21 +1,12 @@
-/* Start_Variables */
 
-:root {
-    --main-color: rgba(74, 79, 104, 0.5);
-    --outline-color: #4b5069;
-    --btn-bg-color: #dd7967;
-    --font-color: #FFFFFF;
-}
-
-/* End_Variables */
 /* Start_General_Styles */
 
 * {
     box-sizing: border-box;
 }
 body {
-    background-color: var(--main-color);
-    color: var(--font-color);
+    background-color: rgba(74, 79, 104, 0.502);
+    color: #FFFFFF;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -49,7 +40,7 @@ p {
 /* Start_Form */
 
 #survey-form {
-    background-color: var(--main-color);
+    background-color: rgba(74, 79, 104, 0.502);
     padding: 40px;
     margin: 0 auto;
     max-width: 800px;
@@ -82,10 +73,10 @@ p {
     -o-border-radius: 5px;
 }
 #survey-form .main-input:focus {
-    outline: 1px solid var(--outline-color);
+    outline: 2px solid #4b5069;
 }
 #survey-form #submit {
-    background-color: var(--btn-bg-color);
+    background-color: #df8272;
     color: var(--font-color);
     width: 100%;
     padding: 16px 0;
@@ -100,6 +91,14 @@ p {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+#survey-form #submit:hover {
+    background-color: hsl(9, 63%, 62%);
 }
 
 /* End_Form */
